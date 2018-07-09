@@ -1,0 +1,25 @@
+.informetion_sign {
+	height:900px;
+	background:#fff;
+}
+.informetion .main .inp .email,.informetion .main .inp .pass_again,.informetion .main .inp .qq,.informetion .main .inp .phone1,.informetion .main .inp .phone2,.informetion .main .inp .tphone,.informetion .main .inp .answer,.informetion .main .inp .strong{
+	width:288px;
+	height:40px;
+	margin-bottom:24px;
+}
+.informetion .main .inp .email span,.informetion .main .inp .pass_again span,.informetion .main .inp .qq span,.informetion .main .inp .phone1 span,.informetion .main .inp .phone2 span,.informetion .main .inp .tphone span,.informetion .main .inp .answer span {
+	display: block;
+	float:left;
+	width:40px;
+	text-align: right;
+	margin-right:10px;
+}
+.informetion .main .inp .email #useremail,.informetion .main .inp .pass_again #password_again,.informetion .main .inp .qq #qq,.informetion .main .inp .phone1 #phone1,.informetion .main .inp .phone2 #phone2,.informetion .main .inp .tphone #tphone,.informetion .main .inp .answer #answer {
+	height:40px;
+	width:184px;
+	float: left;
+}
+.informetion .main .inpbox {
+	height:800px;
+	
+}

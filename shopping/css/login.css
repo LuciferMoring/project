@@ -1,0 +1,79 @@
+.informetion {
+	width:100%;
+	background:#ececec;
+	overflow: hidden;
+}
+.informetion .main {
+	height:406px;
+	background:#fff;
+	margin-top:30px;
+}
+.informetion .main .infor_header {
+	height:50px;
+	border-bottom:1px dashed #ccc;
+	line-height:50px;
+	text-indent: 24px;
+}
+.informetion .main .infor_header h2 {
+	float:left;
+	font-size:24px;
+}
+.informetion .main .inp {
+	float:left;
+	width:580px;
+	height:295px;
+	margin-top:30px;
+	margin-left:140px;
+}
+.informetion .main .inp .name,.informetion .main .inp .pass{
+	width:288px;
+	height:40px;
+	margin-bottom:24px;
+	
+}
+.informetion .main .inp .name span,.informetion .main .inp .pass span {
+	display: block;
+	float:left;
+	width:40px;
+	text-align: right;
+	margin-right:10px;
+}
+.informetion .main .inp .name #username,.informetion .main .inp .pass #password {
+	height:40px;
+	width:184px;
+	float: left;
+}
+.informetion .main .codeimg {
+	float:right;
+	width:300px;
+	height:280px;
+	border: 1px solid #D6D6D6;
+	margin:30px 30px 0 0;
+	text-align: center;
+}
+.informetion .main .codeimg span {
+	display: block;
+}
+.informetion .main .inp .checkbox {
+	width:188px;
+	margin-left:50px;
+}
+.informetion .main .inp #btn {
+	width:105px;
+	height:33px;
+	background: #444;
+	color:#fff;
+	outline: none;
+	border: none;
+	line-height: 33px;
+	text-align: center;
+	display: block;
+	margin:20px 0 0 50px;
+}
+.informetion .main .inp i {
+	font-style:normal;
+	display: block;
+	margin:20px 0 0 50px;
+	color: #ccc;
+}
+

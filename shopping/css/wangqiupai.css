@@ -1,0 +1,185 @@
+.location {
+	height:25px;
+	line-height: 25px;
+}
+.location a:hover {
+	color:#f00;
+}
+.shot_intr,.shot_intr .pro_left {
+	height:518px;
+}
+.shot_intr .pro_left {
+	width:450px;
+	position: relative;
+	float:left;
+}
+.shot_intr .pro_left .big_img {
+	width:450px;
+	height:450px;
+	border: 1px solid #4D4D4D;
+	position: absolute;
+	top:0;
+	left:450px;
+	margin-left:5px;
+	display: none;
+	overflow:hidden;
+}
+/*.shot_intr .pro_left .big_img img {
+	width:450px;
+	height:450px;
+}*/
+.shot_intr .pro_img {
+	position: relative;
+}
+.shot_intr .pro_img,.shot_intr .pro_img img {
+	width:450px;
+	height:450px;
+}
+.shot_intr .pro_img .shadow {
+	width:200px;
+	height:200px;
+	position: absolute;
+	background:rgba(0,0,0,0.3);
+}
+.shot_intr .tab_img {
+	height:63px;
+	width:450px;
+}
+.shot_intr .tab_img div {
+	float:left;
+	width:52px;
+	height:56px;
+	margin:5px 2px 0;
+	border:2px solid #ffff;
+	position: relative;
+}
+.shot_intr .tab_img div span {
+	position: absolute;
+	top:-10px;
+	left:28px;
+	margin-left:-6px;
+	display: none;
+}
+.shot_intr .tab_img li {
+	float:left;
+	width:52px;
+	height:56px;	
+}
+.shot_intr .tab_img img {
+	width:52px;
+	height:56px;
+}
+.shot_intr .tab_img .icon_font {
+	font-size: 4px;
+	color:#f00;
+}
+.shot_intr .tab_img div:hover {
+	border:2px solid #f00;
+}
+.shot_intr .tab_img div:hover span {
+	display: block;
+}
+.shot_intr .pro_right {
+	width:715px;
+	height:373px;
+	float:right;	
+}
+.pro_right .pro_title {
+	height:30px;
+	border-bottom: 2px solid #ccc;
+	line-height: 30px;	
+}
+.pro_right .pro_title h2 {
+	float:left;
+	font-size:18px;
+	font-weight: 300;
+}
+.pro_right .pro_title a {
+	float:right;
+	color:#ccc;
+}
+.pro_right .goods_logo {
+	height:44px;
+	margin-top:10px;
+	padding-left:10px;
+}
+.pro_right .goods_logo p {
+	width:250px;
+	float:left;
+	height:22px;
+	line-height: 22px;
+	color:#999;
+}
+.pro_right .price {
+	color:#999;
+	padding-left:10px;
+	margin-top:20px;
+}
+.pro_right .price p {
+	line-height: 22px;
+}
+.pro_right .price .goods_price span {
+	color:#f00;
+	font-size:20px;
+	font-weight: bold;
+}
+.pro_right .price .up_price span {
+	text-decoration: line-through;
+}
+.pro_right .price .share a:hover{
+	color:#f00;
+}
+.pro_right .jifen {
+	margin-top:22px;
+	padding-left:10px;
+	color:#999;
+}
+.pro_right .jifen span {
+	color:#f00;
+	font-weight: bold;
+}
+.pro_right .goodsform {
+	margin-top:12px;
+	padding-left:10px;
+	color:#999;
+}
+.pro_right .goodsform h3{
+	font-weight: normal;
+	font-size: 12px;
+	margin-bottom: 10px;
+}
+.pro_right .goodsform .buy_number {
+	margin-top:20px;
+}
+.pro_right .goodsform .buy_number #howmany {
+	width:59px;
+	height:34px;
+}
+.pro_right .goodsform .buy_number #howmany,.goodsform .buy_number b,.goodsform .buy_number i,.goodsform .buy_number strong,.goodsform .buy_number em,.goodsform .buy_number .notice{
+	color:#f00;
+	font-weight: bold;
+}
+.goodsform .buy_number em,.goodsform .buy_number i {
+	font-style: normal;
+}
+#howmany {
+	margin:0 20px 0 8px;
+}
+.pro_right .goodsform .sub {
+	margin-top:38px;
+	height:44px;
+	width:705px;
+}
+.pro_right .goodsform button {
+	width:161px;
+	height:44px;
+	background:url(../img/bnt_buy.gif) 0 0 no-repeat;
+	border: none;
+	outline:none;
+	cursor: pointer;
+	margin-left:136px;
+}
+/***************详情页细节样式(公用样式):***********************/
+.details {
+	margin-top:18px;
+}
