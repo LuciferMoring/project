@@ -1,0 +1,90 @@
+.main {
+	margin-top:10px;
+}
+.goods_list {
+	height: 40px;
+	background:#f6f6f6;
+	border:1px solid #e3e3e3;
+	line-height: 40px;
+	font-weight: bold;
+	text-indent:14px;
+	font-size: 14px;
+}
+#car {
+	border:1px solid #ccc;
+	text-align: center;
+}
+#car table {
+	border-collapse:collapse;	
+	/*margin-top: 4px;*/
+}
+#car tr,#car tr td  {
+	border:1px solid #ccc;
+}
+
+#car tr:nth-child(1) {
+	height:28px;
+	line-height:28px;	
+}
+#car tr:nth-child(1) td:nth-child(1){
+	padding:0 215px;
+}
+#car tr:nth-child(1) td:nth-child(2){
+	padding:0 58px;
+}
+#car tr:nth-child(1) td:nth-child(3){
+	padding:0 74px;
+}
+#car tr:nth-child(1) td:nth-child(4){
+	padding:0 41px;
+}
+#car tr:nth-child(1) td:nth-child(5){
+	padding:0 74px;
+}
+#car tr:nth-child(1) td:nth-child(6){
+	padding:0 30px;
+}
+#car table tr td img {
+	width:92px;
+	height:92px;
+}
+#car table tr td p {
+	text-align: center;
+}
+#car table tr td p a:hover {
+	color:#f00;
+}
+#gwc_goods_num .gwc_goods_number {
+	width:59px;
+	height:34px;
+}
+.refresh {
+	height:32px;
+	line-height: 32px;
+	margin-top:5px;
+}
+.refresh span {
+	color:#6F3239;
+	font-weight: bold;
+	font-size: 14px;
+}
+.refresh button {
+	width:99px;
+	height:32px;
+	background:#444;
+	text-align: center;
+	line-height: 32px;
+	color:#fff;
+	border:none;
+	outline: none;
+	float:right;
+	margin:0 2px;
+}
+.gobuy {
+	height:35px;
+	margin-top:10px;
+	margin-bottom: 20px;
+}
+.gobuy .checkout {
+	float:right;
+}

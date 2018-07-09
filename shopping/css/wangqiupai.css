@@ -183,3 +183,133 @@
 .details {
 	margin-top:18px;
 }
+.details .details_left {
+	float:left;
+	width:255px;
+	height:1232px;
+	color:#f00;
+}
+.details_left h2 {
+	height:39px;
+	background:#444;
+	color:#fff;
+	text-indent:14px;
+	line-height: 39px;
+	font-size:14px;
+}
+.details_left .det_top {
+	height:205px;
+	border:1px solid #eee;
+}
+.details_left .det_kinds {
+	width:233px;
+	height:145px;
+	margin-left:14px;
+}
+.details_left .det_kinds li {
+	height:29px;
+	line-height: 29px;
+	font-size: 14px;
+}
+.details_left .det_bottom {
+	height:1008px;
+	border:1px solid #eee;
+	margin-top:10px;
+	border-top:2px solid #444;
+}
+.details_left .det_bottom h2 {
+	background:none;
+	color:#000;
+	border-bottom: 1px solid #eee;
+}
+.details_left .det_bottom .det_history {
+	height:85px;
+	width:239px;
+	border-bottom: 1px solid #eee;
+	margin-left:10px;	
+}
+.details_left .det_bottom .det_history img {
+	width:62px;
+	height:62px;
+	float:left;
+	margin-top:5px;	
+}
+.details_left .det_bottom .det_history p {
+	width:163px;
+	height:38px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: normal;
+	color:#000;
+	float:right;
+	margin-top:5px;
+}
+.details_left .det_bottom .det_history p a:hover {
+	color:#f00;
+}
+.details_left .det_bottom .clear {
+	float:right;
+	margin:2px 5px 0 0;
+}
+.details_left .det_bottom .clear:hover {
+	color:#f00;
+	
+}
+.details .details_right {
+	width:940px;
+	float:right;
+}
+.details_right .det_tab {
+	height:38px;
+	border-bottom:2px solid #eee;
+}
+.details_right .det_tab .tab li{
+	font-weight: bold;
+	float:left;
+	height:38px;
+	width:102px;
+	background:#f5f5f5;
+	color:#000;
+	line-height:38px;
+	text-align: center;
+	margin-right: 5px;
+	cursor:pointer;
+}
+.details_right .det_tab .tab li.active{
+	background:#444;
+	color:#fff;
+		
+}
+.details_right table {
+	width:100%;
+	border:1px solid #ccc;
+	margin-top:12px;
+	border-collapse: collapse;
+}
+.details_right table tr {
+	height:28px;
+	line-height:28px;
+}
+.details_right table tr td {
+	text-indent: 5px;
+}
+.details_right table tr td:nth-child(2n+1){
+	width:30%;
+}
+.details_right table tr,.details_right table tr td {
+	border:1px solid #ccc;
+}
+.details_right table .tab_t{
+	text-align: center;
+}
+.details_right .judge {
+	height:329px;
+	width:938px;
+	border:1px solid #ccc;
+}
+.details_right .tab2 {
+	width:940px;
+	height:200px;
+	background:#eee;
+	display: none;
+}

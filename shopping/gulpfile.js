@@ -1,6 +1,6 @@
 var gulp = require('gulp');
 var connect = require('gulp-connect');
-gulp.task('default',['server','watch','html'])
+gulp.task('default',['server','watch','html','watchcsswqp','wqpcss','watchgwchtml','gouwuchehtml','watchgwccss','gouwuchecss'])
 gulp.task('watch',function(){
 	gulp.src('./wangqiupai.html')
 	gulp.watch('./wangqiupai.html',['html'])
@@ -15,4 +15,28 @@ gulp.task('server',function(){
 		port:'8081',
 		livereload:true
 	})
+})
+gulp.task("watchcsswqp",function(){
+	gulp.src('./css/wangqiupai.css')
+	gulp.watch('./css/wangqiupai.css',['wqpcss'])
+})
+gulp.task('wqpcss',function(){
+	gulp.src('./css/wangqiupai.css')
+	.pipe(connect.reload())
+})
+gulp.task('watchgwchtml',function(){
+	gulp.src('./gouwuche.html')
+	gulp.watch('./gouwuche.html',['gouwuchehtml'])
+})
+gulp.task('gouwuchehtml',function(){
+	gulp.src('./gouwuche.html')
+	.pipe(connect.reload())
+})
+gulp.task('watchgwccss',function(){
+	gulp.src('./css/gouwuche.css')
+	gulp.watch('./css/gouwuche.css',['gouwuchecss'])
+})
+gulp.task('gouwuchecss',function(){
+	gulp.src('./css/gouwuche.css')
+	.pipe(connect.reload())
 })
