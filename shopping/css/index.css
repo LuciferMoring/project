@@ -33,9 +33,7 @@
 	text-align: center;
 	line-height: 20px;
 	margin-left: 6px;
-	
-}
-.banner .tips li a {
+	cursor:pointer;
 	color:#fff;
 }
 .promotion {
@@ -235,7 +233,5 @@
 }
 .banner ul li.active {
 	background:#fff;
-}
-.banner ul li.active a {
 	color:#f00;
 }

@@ -10,24 +10,25 @@
 }
 .shot_intr .pro_left {
 	width:450px;
+	height:450px;
 	position: relative;
 	float:left;
 }
-.shot_intr .pro_left .big_img {
+.big_img {
 	width:450px;
 	height:450px;
 	border: 1px solid #4D4D4D;
 	position: absolute;
-	top:0;
-	left:450px;
+	top:0px;
+	left:480px;
 	margin-left:5px;
 	display: none;
 	overflow:hidden;
 }
-/*.shot_intr .pro_left .big_img img {
-	width:450px;
-	height:450px;
-}*/
+.big_img img {
+	position: absolute;
+	
+}
 .shot_intr .pro_img {
 	position: relative;
 }
@@ -39,11 +40,17 @@
 	width:200px;
 	height:200px;
 	position: absolute;
+	top:0;
+	left:0;
+	display: none;
 	background:rgba(0,0,0,0.3);
 }
 .shot_intr .tab_img {
 	height:63px;
 	width:450px;
+}
+.shot_intr .tab_img img {
+	cursor:pointer;
 }
 .shot_intr .tab_img div {
 	float:left;
