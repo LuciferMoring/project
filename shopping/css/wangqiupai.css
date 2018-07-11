@@ -27,21 +27,22 @@
 }
 .big_img img {
 	position: absolute;
-	
+	width:900px;
+	height:900px;
 }
 .shot_intr .pro_img {
 	position: relative;
 }
 .shot_intr {
-	height:450px;
+	height:500px;
 }
 .shot_intr .pro_img,.shot_intr .pro_img img {
 	width:450px;
 	height:450px;
 }
 .shot_intr .pro_img .shadow {
-	width:200px;
-	height:200px;
+	width:225px;
+	height:225px;
 	position: absolute;
 	top:0;
 	left:0;
@@ -192,6 +193,7 @@
 /***************详情页细节样式(公用样式):***********************/
 .details {
 	margin-top:18px;
+	
 }
 .details .details_left {
 	float:left;

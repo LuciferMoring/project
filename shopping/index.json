@@ -4,14 +4,24 @@
 	 "title":"【断码清仓】Asics 亚瑟士 GEL-Game 网球鞋女款",
 	 "delprice":"￥413.00元",
 	 "nowprice":"促销价:￥350.00元",
-	 "img":"img/goodslist.jpg"
+	 "img":"img/goodslist.jpg",
+	 "num":"商品货号:E755Y-0149",
+	 "logo":"商品品牌:Asics亚瑟士",
+	 "imgsmall":"img/pro1small.jpg",
+	 "imgmiddle":"img/pro1big.jpg",
+	 "imgbig":"img/pro1big.jpg"
 	},
 	{
 	"id":1,
 	 "title":"【断码清仓】Asics 亚瑟士 GEL-Solution Speed 3 网球鞋男款",
 	 "delprice":"￥680.00元",
 	 "nowprice":"促销价:￥599.00元",
-	 "img":"img/goodslist2.jpg"
+	 "img":"img/goodslist2.jpg",
+	 "num":"商品货号:E755Y-0150",
+	 "logo":"商品品牌:Asics亚瑟士",
+	 "imgsmall":"img/pro2small.jpg",
+	 "imgmiddle":"img/pro2big.jpg",
+	 "imgbig":"img/pro2big.jpg"
 	},
 	{
 	"id":2,
@@ -59,31 +69,31 @@
 	 "img":"img/goodslist9.jpg"
 	},
 	{
-	"id":4,
+	"id":9,
 	 "title":"阿尔法Alpha TSB-Z1 大盘线200米",
 	 "delprice":"￥480.00元",
 	 "nowprice":"￥158.00元",
 	 "img":"img/goodslist5.jpg"
 	},
-	{"id":5,
+	{"id":10,
 	 "title":"【断码清仓】Babolat Jet All Court 网球鞋男款白蓝色",
 	 "delprice":"￥1600.00元",
 	 "nowprice":"￥640.00元",
 	 "img":"img/goodslist6.jpg"
 	},
-	{"id":6,
+	{"id":11,
 	 "title":"威尔胜Wilson UWII Henley 快干T恤 灰色2018款",
 	 "delprice":"￥1600.00元",
 	 "nowprice":"￥640.00元",
 	 "img":"img/goodslist7.jpg"
 	},
-	{"id":7,
+	{"id":12,
 	 "title":"Wilson 儿童海绵网球 训练网球 大号红球",
 	 "delprice":"￥15.00元",
 	 "nowprice":"￥8.00元",
 	 "img":"img/goodslist8.jpg"
 	},
-	{"id":8,
+	{"id":13,
 	 "title":"威尔胜Wilson Tour Molded 2.0 红色12-15支装 网球包",
 	 "delprice":"￥1090.00元",
 	 "nowprice":"￥488.00元",

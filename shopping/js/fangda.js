@@ -8,24 +8,27 @@ function Bigmirror (){
 	this.tab_img = this.pro_left.getElementsByClassName('tab_img')[0]
 	this.tabImgs = this.tab_img.getElementsByTagName('img');
 	this.pro_img_img = this.pro_img.getElementsByTagName('img')[0];
+	this.imgBoxmouseover();
+	this.shadowmouseover();
+	this.tabImg();
 }
 Bigmirror.prototype.imgBoxmouseover=function(){
 	var _this=this;
-	this.pro_img.onmouseover=function(){
+	this.pro_left.onmouseover=function(){
 		_this.shadow.style.display="block";
 	}
-	this.pro_img.onmouseout=function(){
+	this.pro_left.onmouseout=function(){
 		_this.shadow.style.display="none";
 		_this.big_img.style.display="none";
 	}
 }
 Bigmirror.prototype.shadowmouseover=function(){
 	var _this=this;
-	this.shadow.onmousemove=function(e){
+	this.pro_left.onmousemove=function(e){
 		_this.big_img.style.display="block";
 		e = e || window.event;
 		var l = e.clientX - _this.main.offsetLeft - _this.shadow.offsetWidth/2;
-		var t = e.clientY - _this.pro_left.offsetTop - _this.shadow.offsetHeight/2;
+		var t = e.pageY - _this.pro_left.offsetTop - _this.shadow.offsetHeight/2;
 		var maxL = _this.pro_left.clientWidth - _this.shadow.offsetWidth;
 		var maxT = _this.pro_left.clientHeight - _this.shadow.offsetHeight;
 		if(l > maxL){
@@ -40,8 +43,8 @@ Bigmirror.prototype.shadowmouseover=function(){
 		}
 		_this.shadow.style.left = l + 'px';
 		_this.shadow.style.top = t + 'px';
-		_this.imgBig.style.left = -1*l + 'px';
-		_this.imgBig.style.top = -1*t + 'px';
+		_this.imgBig.style.left = -2*l + 'px';
+		_this.imgBig.style.top = -2*t + 'px';
 	}
 }
 Bigmirror.prototype.tabImg=function(){
@@ -60,7 +63,4 @@ Bigmirror.prototype.tabImg=function(){
 		}
 	}
 }
-var imgBox = new Bigmirror();
-imgBox.imgBoxmouseover();
-imgBox.shadowmouseover();
-imgBox.tabImg();
+
