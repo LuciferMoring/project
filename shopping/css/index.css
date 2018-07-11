@@ -87,7 +87,9 @@
 	height:20px;
 	overflow: hidden;
 }
-
+.goods_list ul li.delprice {
+	text-decoration: line-through;
+}
 .promotion .ads .ad_info h2 span,.promotion_goods h2 span {
 	float:right;
 	margin-right: 12px;	

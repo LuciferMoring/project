@@ -32,6 +32,9 @@
 .shot_intr .pro_img {
 	position: relative;
 }
+.shot_intr {
+	height:450px;
+}
 .shot_intr .pro_img,.shot_intr .pro_img img {
 	width:450px;
 	height:450px;
