@@ -42,8 +42,8 @@ xhr.onreadystatechange=function(){
 						<p>用户评价：<img src="img/stars5.gif" alt="" /></p>	
 					</div>
 					<div class="price">
-						<p class="goods_price">本店售价（注册享惊喜会员价）：<span>￥1680.00元</span></p>
-						<p class="up_price">市场价格:<span>￥3580.00元</span></p>
+						<p class="goods_price">本店售价（注册享惊喜会员价）：<span>${json[detailsId].nowprice}</span></p>
+						<p class="up_price">市场价格:<span>${json[detailsId].delprice}</span></p>
 						<p class="share"><a href="#">分享</a>|<a href="#">暂存</a></p>
 					</div>
 					<p class="jifen">购买此商品可使用：<span>0 积分</span></p>
@@ -51,12 +51,28 @@ xhr.onreadystatechange=function(){
 						<h3>手柄粗细:</h3>
 						<div class="goods_type"><input type="radio" /><span>2号手柄（4 1/4） [ ￥0.00元] </span></div>
 						<div class="buy_number"><span class="buyNum">购买数量&nbsp;:</span><input id="howmany" type="text" /><b>商品总价:</b><i>￥</i><strong>1680.00</strong><em>元</em><span class="notice">此商品为免运费商品，计算配送金额时将不计入配送费用</span></div>
-						<div class="sub"><button type="button"></button></div>
+						<div class="sub"><a id="go" href="./gouwuche.html" target="_blank"><button  type="button"></button></a></div>
 					</form>
 				</div>
 			</div>`;
 		shot_intr.innerHTML=str;
 		new Bigmirror();
+		var go = document.getElementById("go");
+		var g_price = json[detailsId].nowprice;
+		var priceData = parseFloat(g_price.slice(5));
+		var g_title = json[detailsId].title;
+		var market_price = json[detailsId].delprice;
+		//往页面存值
+		go.onclick=function(){
+			var howmany = document.getElementById('howmany')
+			localStorage.setItem("_price",priceData);
+			localStorage.setItem("_number",howmany.value);
+			localStorage.setItem('_id',detailsId);
+			localStorage.setItem('_title',g_title);
+			localStorage.setItem('_mPrice',market_price);
+			localStorage.setItem('_imgSrc',json[detailsId].imgmiddle);	
+		}
 		
 	}
 }
+
